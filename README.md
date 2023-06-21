@@ -1,4 +1,6 @@
-# BallShooter SFML Game 
+<h1>
+    <p align="center">sfml-ball-shooter</p>
+</h1>
 
 Check for <a href="https://brew.sh">Homebrew</a> (a multifarious package manager for macOS or Linux):
 
@@ -14,11 +16,11 @@ You will also need <a href="https://cmake.org">CMake</a> (an open-source, cross-
 
 Clone this repository
 
-    git clone https://github.com/austinmhorn/BallShooter.git
+    git clone https://github.com/austinmhorn/sfml-ball-shooter.git
 
 Move into project source directory
 
-    cd BallShooter
+    cd sfml-ball-shooter
 
 Compile source files
 
@@ -30,4 +32,4 @@ Build objects and link executable
 
 Run executable
 
-    ./BallShooter
+    ./sfml-ball-shooter

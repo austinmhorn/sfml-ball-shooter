@@ -1,12 +1,16 @@
 # BallShooter SFML Game 
 
-Check for git:
+Check for <a href="https://brew.sh">Homebrew</a> (a multifarious package manager for macOS or Linux):
 
-    git --version
+    brew --version
 
 If you don't have it, install it:
 
-    sudo apt install git-all
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+You will also need <a href="https://cmake.org">CMake</a> (an open-source, cross-platform, build system generator):
+
+    brew install cmake
 
 Clone this repository
 
@@ -18,11 +22,11 @@ Move into project source directory
 
 Compile source files
 
-    cmake -S . -B build
+     cmake -S . -B build
 
 Build objects and link executable
     
-    cmake --build build --config Release
+     cmake --build build --config Release
 
 Run executable
 
